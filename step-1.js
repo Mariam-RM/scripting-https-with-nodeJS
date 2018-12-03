@@ -13,7 +13,7 @@ function getAndPrintHTMLChunks () {
 
     response.on('data', function (data) {
       console.log(data);
-      console.log('/n');
+      // console.log('/n');
     });
 
     response.on('end', function() {
